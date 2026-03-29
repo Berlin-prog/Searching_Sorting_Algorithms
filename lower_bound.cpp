@@ -3,7 +3,7 @@
 int lower_bound(int* arr, int target, int size)
 {
     int start = 0;
-    int end = size - 1;
+    int end = size;
     while(start < end)
     {
         int mid = start + (end - start) / 2;
